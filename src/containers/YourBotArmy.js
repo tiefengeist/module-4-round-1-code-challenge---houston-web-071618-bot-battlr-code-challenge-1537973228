@@ -11,12 +11,13 @@ class YourBotArmy extends React.Component {
           <div className="row bot-army-row">
             {/*...and here...*/}
             Your Bot Army
+
           </div>
         </div>
       </div>
     );
   }
-  
+
 };
 
 export default YourBotArmy;
