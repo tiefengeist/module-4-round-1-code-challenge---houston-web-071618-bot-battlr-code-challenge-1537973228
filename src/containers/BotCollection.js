@@ -8,6 +8,8 @@ class BotCollection extends React.Component {
     console.log(this.props)
   }
   renderAllBots=()=>{
+
+
     let allBots = this.props.allRobots.map(robot => {
       return(
         <BotCard bot={robot} handleClick={this.props.handleClick}/>
@@ -15,6 +17,8 @@ class BotCollection extends React.Component {
     })
     return allBots
   }
+
+
 
   render(){
   	return (
